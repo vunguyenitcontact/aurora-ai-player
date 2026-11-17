@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Support · Aurora AI Player</title><meta name="description" content="Support, FAQ and contact for Aurora AI Player: formats, Aurora Pro, trial, refunds, AI subtitles and translation.">
+<link rel="icon" href="img/icon.png"><link rel="stylesheet" href="styles.css"></head>
+<body>
+<nav class="nav"><div class="wrap"><a class="brand" href="index.html"><img src="img/icon.png" alt="" width="28" height="28">Aurora AI Player</a><ul><li><a href="index.html">Features</a></li><li><a href="support.html" aria-current="page">Support</a></li><li><a href="open-source.html">Open source</a></li><li><a href="changelog.html">What's new</a></li><li><a href="privacy.html">Privacy</a></li></ul></div></nav>
+
+<main class="wrap narrow doc">
+ <header><span class="eyebrow">Support</span><h1>How can we help?</h1><p>Email is the fastest way to reach us. Say which macOS version you use and, if it is about one video, its format (for example MKV with AAC audio). We usually answer within two working days.</p>
+ <div class="contact"><span class="email">vunguyenit.contact@gmail.com</span><a class="btn" href="mailto:vunguyenit.contact@gmail.com?subject=Aurora%20AI%20Player">Write to us</a></div></header>
+
+ <section><h2>Frequently asked questions</h2>
+ <dl class="faq">
+  <dt>Which formats play?</dt><dd>MP4, MOV, M4V, MKV, WebM, AVI, TS/M2TS, FLV, WMV, MPG, VOB, 3GP, OGV and audio files (MP3, M4A, WAV, AAC, FLAC, OGG, Opus, WMA), including AV1 and HEVC video. Watching is free.</dd>
+  <dt>What is Aurora Pro?</dt><dd>A one-time purchase that unlocks the language-learning tools: AI subtitles, live translation (dual subtitles), tap-a-word dictionary, repeat line, sentence notebook with Anki export, subtitle styles, accent colors and .srt export. Every new install gets a free 14-day trial of all of it; the trial starts when you tap "Start 14-day free trial".</dd>
+  <dt>What happens when the trial ends? Do I need to cancel it?</dt><dd>Nothing to cancel. The trial is not a subscription: it never converts to a charge and no payment method is required. After 14 days the Pro tools simply lock again and watching stays free. You are only charged if you choose to buy Aurora Pro, once.</dd>
+  <dt>How do I get a refund?</dt><dd>Purchases are handled by Apple, so refunds are too: go to <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, sign in with the Apple account you bought with, choose the Aurora Pro purchase and request a refund. Apple usually answers within 48 hours. We cannot issue or decline refunds ourselves. Once Apple refunds, Pro locks again the next time the app is online.</dd>
+  <dt>I bought Pro on another Mac.</dt><dd>Open any Pro feature and choose "Restore purchases", signed in with the same Apple account. Aurora Pro is a universal purchase, so it is shared with the iPad version when that ships.</dd>
+  <dt>Which engine makes the AI subtitles?</dt><dd>Apple Speech on macOS 26 and later, for the languages macOS supports; Whisper (runs on your Mac, model downloaded once from Hugging Face) everywhere else, including macOS 14 and 15. Both are private and offline. You can force one or the other in Settings ▸ Subtitles.</dd>
+  <dt>How does translation work?</dt><dd>Apple Translation runs on-device on macOS 26 and later. Optionally you can enter your own Anthropic API key in Settings ▸ Subtitles to translate with Claude; you pay Anthropic directly and the app shows an estimate of what you have used. The key is kept in the macOS Keychain.</dd>
+  <dt>Subtitles do not cover the whole video.</dt><dd>Clear cached subtitles in Settings ▸ General and generate again. If it repeats, email us with the file's format and length; a short sample that shows the problem helps most.</dd>
+  <dt>The video opens but there is no sound, or no picture.</dt><dd>MP4, MOV and M4V play on Apple's engine; everything else on the built-in libmpv engine. Email us the container and codecs (for example from <code>mediainfo</code> or the file's Get Info panel) and we will reproduce it. A short sample clip that shows the problem helps most.</dd>
+  <dt>Does Aurora run on an Intel Mac?</dt><dd>Not yet. The first release is built for Apple silicon only.</dd>
+  <dt>Why does Aurora ask for access to a folder?</dt><dd>macOS keeps the app sandboxed, so it can only read files and folders you choose. Granting the folder lets Aurora find subtitle files next to your videos and remember your library.</dd>
+ </dl></section>
+
+ <section><h2>Reporting a bug</h2><p>Include the macOS version (Apple menu ▸ About This Mac), the Aurora version (Settings ▸ About), what you did, and what happened instead. If the app crashed, the report macOS offers to send to Apple reaches us too when you allow it. We never see which files you play unless you send one to us yourself.</p>
+ <div class="callout"><strong>Privacy first.</strong> We have no account system and no analytics, so we cannot look anything up on our side. Everything we know about a problem comes from your email. See the <a href="privacy.html">privacy policy</a>.</div></section>
+</main>
+
+<footer><div class="wrap"><div>© 2026 Vu Nguyen · Aurora AI Player for macOS</div><ul><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="open-source.html">Open source</a></li><li><a href="mailto:vunguyenit.contact@gmail.com">vunguyenit.contact@gmail.com</a></li></ul></div></footer>
+</body></html>
